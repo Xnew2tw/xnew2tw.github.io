@@ -1,2 +1,10 @@
 .silver {color: #C0C0C0;}
 .gold {color: #c9a227;}
+@font-face {
+    font-family: "Gatsby FLF";
+    src: url("../fonts/gatsby-flf/gatsby-flf.ttf")
+}
+@font-face {
+    font-family: "Gatsby Inline";
+    src: url(../fonts/gatsby-inline/gatsby-inline.ttf);
+}
