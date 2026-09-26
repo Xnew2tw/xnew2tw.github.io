@@ -26,12 +26,11 @@ h1 {
     color: transparent;
 }
 
-h2, h3 {
+h2, h3, .invitation, .date {
     font-family: "Gatsby FLF";
     font-weight: 700;
 }
 
-.date {
-    font-family: "Gatsby FLF";
-    font-weight: 700;
-}
+.invitation {font-size: 2.5em;}
+
+.date {font-size: 1.2em;}
