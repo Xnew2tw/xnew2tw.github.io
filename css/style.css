@@ -40,6 +40,19 @@ h2, h3, .invitation {
     font-weight: 700;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #808080;
+}
+
+th {text-align: left;}
+
 .invitation {font-size: 2.5em;}
 
 .date {font-weight: 700;}
