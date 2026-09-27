@@ -15,7 +15,10 @@
     font-weight: 700;
 }
 
-body {background-color: #000000;}
+body {
+    background-color: #000000;
+    font-family: Georgia, serif;
+}
 
 .page {
     max-width: 800px;
