@@ -61,10 +61,20 @@ th, td {
 
 th {text-align: left;}
 
-a {color: #c0c0c0;}
+a {
+    color: #c0c0c0;
+    transition: color 0.3s;
+}
+
+a:hover {color: #c9a227;}
 
 input {
     display: flex;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #c9a227;
+    border-color: #c9a227;
 }
 
 form {
